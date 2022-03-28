@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant";
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:visited {
+  color: white;
+}
+
+/* Header section */
+#header {
+  position: fixed;
+  display: flex;
+  height: 5vh;
+  width: 100%;
+  background-color: rgb(77, 72, 72);
+  color: rgb(0, 0, 0);
+}
+
+.header-title {
+  font-size: 2rem;
+}
+
+.header-item {
+  margin: auto;
+  color: white;
+}
+
+/* Welcome section */
+#welcome {
+  background-color: rgb(34, 33, 33);
+  height: 120vh;
+  width: 100vw;
+  padding-top: 5vh;
+}
