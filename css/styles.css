@@ -4,11 +4,14 @@ body {
   padding: 0;
   font-family: "Cormorant";
   font-size: 20px;
-  color: white;
 }
 
 h1 {
-  margin: 0;
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
 }
 
 a {
@@ -27,7 +30,6 @@ a:visited {
   height: 3rem;
   width: 100%;
   background-color: rgb(77, 72, 72);
-  color: rgb(0, 0, 0);
 }
 
 .header-title {
@@ -50,7 +52,22 @@ a:visited {
 /* Welcome section */
 #welcome {
   background-color: rgb(33, 33, 33);
+  color: #fff;
   height: 120vh;
   width: 100vw;
   padding-top: 5vh;
+  text-align: center;
+}
+
+.welcome-container {
+  width: 50%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  background-color: rgb(50, 50, 50);
+  border-radius: 20px;
+}
+
+.welcome-heading {
+  font-family: "Cinzel";
+  font-size: 2rem;
 }
