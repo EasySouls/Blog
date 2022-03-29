@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Cormorant";
+  font-size: 20px;
   color: white;
 }
 
@@ -23,7 +24,7 @@ a:visited {
 #header {
   position: fixed;
   display: flex;
-  height: 5vh;
+  height: 3rem;
   width: 100%;
   background-color: rgb(77, 72, 72);
   color: rgb(0, 0, 0);
@@ -31,16 +32,24 @@ a:visited {
 
 .header-title {
   font-size: 2rem;
+  width: 50%;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+
+.header-item-container {
+  display: flex;
+  width: 50%;
 }
 
 .header-item {
-  margin: auto;
   color: white;
+  margin: auto;
 }
 
 /* Welcome section */
 #welcome {
-  background-color: rgb(34, 33, 33);
+  background-color: rgb(33, 33, 33);
   height: 120vh;
   width: 100vw;
   padding-top: 5vh;
